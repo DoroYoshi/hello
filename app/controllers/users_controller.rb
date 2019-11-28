@@ -1,5 +1,5 @@
 class UsersController < ApplicationController
   def index
-    @message = "Hello World!!"
+    @messages = ["Hello World!!", "Thank you Space!!"]
   end
 end
